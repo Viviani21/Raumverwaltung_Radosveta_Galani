@@ -1,0 +1,341 @@
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  } 
+ input[type=text], input[type=password] , input[type=date] , input[type=number] ,select {
+    
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: large;
+  
+  }
+  
+  input[type=submit], button[type=submit]  {
+    width: 100%;
+    background-color: #e48c2f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+  }
+  
+  input[type=submit]:hover ,button[type=submit]:hover, .button:hover {
+    background-color:  #777;
+  }
+  
+  #panel {
+  display:flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: stretch;
+  border: 20px solid  rgb(128, 218, 221);
+
+ }
+  #panel1 {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  border: 20px solid  rgb(128, 218, 221);
+  flex-wrap: wrap;
+  background: #e48c2f;
+  margin: 30px 0 30px 0; 
+  }
+  #panel1 > * {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 280px;  
+  }
+  #innenpanel {
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+    border: 20px solid  rgb(128, 218, 221);
+    flex-wrap: wrap;
+    background: #e48c2f;
+   
+    }
+    #innenpanel > * {
+      flex-grow: 1;
+      flex-shrink: 1;
+      flex-basis: 280px;  
+    }
+  #paneluser , #gastmenu {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    border: 20px solid  rgb(128, 218, 221);
+    flex-wrap: wrap;
+    background: #e48c2f;
+    margin: 30px 0 30px 0; 
+    height: auto;
+    }
+    #paneluser , #gastmenu > * {
+       flex-grow: 1;
+      flex-shrink: 1; 
+      flex-basis: 280px;  
+    }
+.panel2 {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     justify-content: space-around;
+    align-items: stretch;
+    border: 20px solid  rgb(128, 218, 221);
+    margin: 30px 0 30px 0; 
+    }
+
+  .panel2 > * {
+      flex-grow: 1;
+      flex-shrink: 1;
+      flex-basis: 280px; 
+      height: auto; 
+  }
+  #a,#b,#c,#d,#e{
+    margin:50px ;
+   
+  }
+
+ #bild { 
+  background: url("../data/BFW4.jpg") center no-repeat;
+  background-size: cover;  
+  width: 70%;
+  height: 840px;
+  }
+
+ #login {
+    background:  rgb(128, 218, 221);
+    padding: 180px 50px; 
+    color: rgb(100, 99, 99);
+    width: 30%;
+    flex-direction: column;
+  }
+  .newuser ,.user1{
+    background:  rgb(128, 218, 221);
+    padding: 5px; 
+    color: rgb(100, 99, 99);
+    order: 2; 
+    flex-direction: column;
+    align-items: stretch;
+   min-height: 280px;
+   margin-left: 2px ;
+  }
+  
+.h4gast{
+    margin:auto;
+    width:70%;
+    text-align: center;  
+    
+}
+.gastList,.gast{
+background:  rgb(128, 218, 221);
+    padding: 5px; 
+    color: rgb(100, 99, 99);
+    flex-basis:100%;
+    flex-grow: 1;
+    flex-shrink:1;
+  
+ 
+  }
+  .gast1,.gast2{
+    background:  rgb(128, 218, 221);
+    padding: 5px; 
+    color: rgb(100, 99, 99);
+    flex-basis:50%;
+    flex-grow: 1;
+    flex-shrink:1;
+   
+
+  }
+  .userList {
+    background:  rgb(128, 218, 221);
+    padding: 5px; 
+    color: rgb(100, 99, 99);
+    order: 3; 
+    flex-direction: column;
+    align-items: stretch;
+   height: auto;
+  
+  }
+  .usersearch,.rsearch , .user {
+    background:  rgb(128, 218, 221);
+    padding: 5px; 
+    color: rgb(100, 99, 99);
+    order: 1;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+   #newuser, #usersearch, #rsearch, #allrooms{ 
+    margin:auto;
+    width: 50%;
+    text-align: center;  
+   }
+  
+  #booking , #newroom , #userupdate, #updateroom , #rsearch, #deleteuser{  
+    width: 40%;
+    text-align: center;  
+    margin:auto;
+  }
+
+  
+  footer {
+    background-color: #777;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+  }
+  .hallo{
+    text-align: center;
+    color: #e48c2f; 
+  }
+
+  nav {
+    overflow:hidden;
+    background-color: #777;
+  }
+  nav a {
+    float: left;
+  color: #f2f2f2;
+    text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-right:3px solid #e48c2f;
+ 
+  }
+  nav a:hover {
+    background-color: #e48c2f;
+    color:  #f2f2f2;
+    ;
+  }
+  header h1{
+    font-size:30px;
+    margin: 50px 0 50px 0;
+    padding:20px; 
+    text-align: center;
+    background-color: #777;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .wrapper{
+    margin: 50px 0 50px 0;
+    height: auto;
+    width: auto;
+    
+  }
+ 
+  .button {
+    text-decoration: none;
+    width: 10%;
+    background-color: #e48c2f;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .table {
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+    width: 10%;
+    background-color: #e48c2f;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  table {
+   
+  width: 70%;
+  border-collapse: colapsse; 
+   margin-left: auto;
+   margin-right: auto;
+   height: auto;
+  width: auto;
+  
+  }
+  table, th, td {
+    text-align: left;
+    padding: 10px;
+     border-collapse: colapsse; 
+    
+  }
+
+  #meldung {
+    color: crimson;
+    text-align: center;
+  }
+  
+  .anlegen{
+    text-align: center; 
+    color: rgb(100, 99, 99);
+    
+  }
+  /* .usermenu  */
+    .adminmenu  {
+    background:  rgb(128, 218, 221);
+    padding: 160px 50px; 
+    color: rgb(100, 99, 99);
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin: 30px 0 30px 0; 
+  }
+  
+ 
+  .allrooms , .booking , .newroom ,.allusers, .userupdate ,.mybooking,.allbooking ,.updateroom , .rsearch, .deleteuser{
+    background:  rgb(128, 218, 221);
+    padding: 40px ; 
+    color: rgb(100, 99, 99);
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin: 30px 0 30px 0;  
+  }
+  
+  
+  @media  screen and ( min-width: 800px ) { 
+    breites Browserfenster 
+   body { background-color:white;}
+   #panel1 {
+     display: flex;
+   }
+   input, .newuser, .searchuser , .anlegen ,.updateroom{ 
+   width: 100%;
+    height: auto;
+   }
+ }
+
+  @media only screen and ( min-width: 440px ) and ( max-width: 950px ) { 
+    Tablets und mittlere Bildschirme 
+    body { background-color:  white;}
+    a div input  #panel #panel1 #paneluser .button .adminmenu {
+      width: 100%;
+      height: auto;
+    }
+
+  }
+    @media only screen and ( max-width: 440px ) { 
+      mobile Geräte 
+     body { background-color:   white;}
+
+    a div  input table #panel #panel1 #paneluser.button .adminmenu .table .anlegen {
+      width: 100%;
+      height: auto;
+    }
+  }
