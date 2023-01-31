@@ -11,7 +11,7 @@
 	<nav><?=  $link ?></nav>
 	                         
 	<div class="allrooms">
-		<h3 id="allrooms">Raumübersicht alle "grünen"  Räume </h3>
+		<h3 id="allrooms">Raumübersicht aller "grünen"  Räume </h3>
 		
 		<p id="meldung"><?= $meldung ?></p>
 		<p id="meldung"><?= $meldung1 ?></p>
