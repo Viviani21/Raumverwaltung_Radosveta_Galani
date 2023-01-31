@@ -27,7 +27,7 @@
     <button type="submit" name="submit" class="button table">Suche</button>
 		
 		</form>
-		<h4 id="allrooms">Übersicht alle "grünen" Räume in BFW </h4>
+		<h4 id="allrooms">Übersicht aller "grünen" Räume in BFW </h4>
 		
 			<?php
 			$x="";
