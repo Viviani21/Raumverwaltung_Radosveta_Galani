@@ -29,7 +29,7 @@
     <button type="submit" name="submit" class="button table">Suche</button>
 		
 </form>
-<h3 id="allrooms">Übersicht alle "grünen" Räume in BFW </h3>
+<h3 id="allrooms">Übersicht aller "grünen" Räume in BFW </h3>
    
 
 		
