@@ -1,2 +1,6 @@
 # Raumverwaltung_Radosveta_Galani
-Password für Benutzer und Admin ist 123
+Admin - radi@galani.de
+Benutzer - john@smith.de
+Gast - maria@braun.de
+
+Password für alle ist 123
